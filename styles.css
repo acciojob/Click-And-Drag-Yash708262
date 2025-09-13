@@ -1,14 +1,12 @@
-html {
-  box-sizing: border-box;
-  background: url('https://source.unsplash.com/NFs6dRTBgaM/2000x2000') fixed;
-  background-size: cover;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
- body {
+  html {
+      box-sizing: border-box;
+      background: url('https://source.unsplash.com/NFs6dRTBgaM/2000x2000') fixed;
+      background-size: cover;
+    }
+    *, *:before, *:after {
+      box-sizing: inherit;
+    }
+    body {
       margin: 0;
       display: flex;
       justify-content: center;
@@ -18,7 +16,7 @@ html {
     }
 
     .items {
-      width: 800px;              /* Fixed width so overflow possible */
+      width: 800px;              
       height: 300px;
       border: 2px solid white;
       overflow-x: scroll;
@@ -38,24 +36,23 @@ html {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      width: 250px;              /* Big enough to overflow horizontally */
+      width: 250px;              
       height: 100%;
       margin-right: 10px;
       font-size: 40px;
       font-weight: bold;
       color: #fff;
-      background: dodgerblue;
     }
 
-.item:nth-child(9n+1) { background: dodgerblue;}
-.item:nth-child(9n+2) { background: goldenrod;}
-.item:nth-child(9n+3) { background: paleturquoise;}
-.item:nth-child(9n+4) { background: gold;}
-.item:nth-child(9n+5) { background: cadetblue;}
-.item:nth-child(9n+6) { background: tomato;}
-.item:nth-child(9n+7) { background: lightcoral;}
-.item:nth-child(9n+8) { background: darkslateblue;}
-.item:nth-child(9n+9) { background: rebeccapurple;}
+    .item:nth-child(9n+1) { background: dodgerblue;}
+    .item:nth-child(9n+2) { background: goldenrod;}
+    .item:nth-child(9n+3) { background: paleturquoise;}
+    .item:nth-child(9n+4) { background: gold;}
+    .item:nth-child(9n+5) { background: cadetblue;}
+    .item:nth-child(9n+6) { background: tomato;}
+    .item:nth-child(9n+7) { background: lightcoral;}
+    .item:nth-child(9n+8) { background: darkslateblue;}
+    .item:nth-child(9n+9) { background: rebeccapurple;}
 
-.item:nth-child(even) { transform: scaleX(1.31) rotateY(40deg); }
-.item:nth-child(odd) { transform: scaleX(1.31) rotateY(-40deg); }
+    .item:nth-child(even) { transform: scaleX(1.31) rotateY(40deg); }
+    .item:nth-child(odd) { transform: scaleX(1.31) rotateY(-40deg); }
